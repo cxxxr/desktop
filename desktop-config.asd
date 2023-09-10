@@ -8,4 +8,5 @@
                (:file "font")
                (:file "group-commands")
                (:file "power-commands")
-               (:file "keybinds")))
+               (:file "keybinds")
+               (:file "init")))

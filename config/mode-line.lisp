@@ -8,6 +8,6 @@
       (list "^B"
             '(:eval (run-shell-command "date '+%R %F %a'|tr -d [:cntrl:]" t))
             " %g "
-            "[%B]"
+            (if (env-use-battery (current-env)) "[%B]" "")
             "%W"
             "^b"))

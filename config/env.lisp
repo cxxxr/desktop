@@ -1,10 +1,11 @@
 (in-package :stumpwm-user)
 
 (defstruct env
-  font-size)
+  font-size
+  use-battery)
 
-(defvar *desktop* (make-env :font-size 9))
-(defvar *laptop* (make-env :font-size 12))
+(defvar *desktop* (make-env :font-size 9 :use-battery nil))
+(defvar *laptop* (make-env :font-size 12 :use-battery t))
 
 (defvar *current-env*
   (if (equal "cxxxr-desktop" (uiop:hostname))
