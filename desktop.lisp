@@ -5,10 +5,6 @@
            :init-font))
 (in-package :desktop)
 
-(defun init-font (font)
-  (xft:cache-fonts)
-  (stumpwm:set-font font))
-
 (defun load-init ()
   (asdf:load-system :desktop-config))
 

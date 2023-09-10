@@ -1,7 +1,7 @@
 (in-package :stumpwm-user)
 
 (xft:cache-fonts)
-(desktop::init-font
+(stumpwm:set-font
  (make-instance 'xft:font
                 :family "VL Gothic"
                 :subfamily "regular"
