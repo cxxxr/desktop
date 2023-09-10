@@ -6,3 +6,5 @@
                 :family "VL Gothic"
                 :subfamily "regular"
                 :size (env-font-size (current-env))))
+
+(stumpwm::resize-mode-line (first stumpwm::*mode-lines*))
