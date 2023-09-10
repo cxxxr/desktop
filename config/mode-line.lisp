@@ -5,7 +5,8 @@
 
 (setf battery-portable::*no-battery-info* "")
 (setf *screen-mode-line-format*
-      (list "^B"
+      (list "^7"
+            "^B"
             '(:eval (run-shell-command "date '+%R %F %a'|tr -d [:cntrl:]" t))
             " %g "
             (if (env-use-battery (current-env)) "[%B]" "")
