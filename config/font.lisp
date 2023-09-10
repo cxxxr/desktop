@@ -2,6 +2,6 @@
 
 (desktop::init-font
  (make-instance 'xft:font
-                :family "IPAGothic"
-                :subfamily "Regular"
-                :size 12))
+                :family "VL Gothic"
+                :subfamily "regular"
+                :size 9))
