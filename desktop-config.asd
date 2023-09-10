@@ -2,7 +2,8 @@
   :depends-on ("desktop")
   :serial t
   :pathname "config"
-  :components ((:file "style")
+  :components ((:file "env")
+               (:file "style")
                (:file "mode-line")
                (:file "font")
                (:file "group-commands")

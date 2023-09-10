@@ -5,4 +5,4 @@
  (make-instance 'xft:font
                 :family "VL Gothic"
                 :subfamily "regular"
-                :size 12))
+                :size (env-font-size (current-env))))
