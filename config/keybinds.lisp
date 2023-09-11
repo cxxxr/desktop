@@ -32,3 +32,4 @@
 (define-key *top-map* (kbd "s-;") "colon")
 (define-key *top-map* (kbd "s-g") "abort")
 (define-key *top-map* (kbd "s-k") "delete")
+(define-key *top-map* (kbd "s-b") "exec vivaldi")
