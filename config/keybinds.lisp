@@ -31,3 +31,4 @@
 (define-key *top-map* (kbd "s-:") "eval")
 (define-key *top-map* (kbd "s-;") "colon")
 (define-key *top-map* (kbd "s-g") "abort")
+(define-key *top-map* (kbd "s-k") "delete")
