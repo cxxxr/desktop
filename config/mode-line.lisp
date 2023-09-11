@@ -26,5 +26,5 @@
             '(:eval (run-shell-command "date '+%R %F %a'|tr -d [:cntrl:]" t))
             (if (env-use-battery (current-env)) " [%B]" "")
             "   %g   "
-            "%W"
+            "                         %W"
             "^b"))

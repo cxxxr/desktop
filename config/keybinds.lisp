@@ -4,7 +4,7 @@
 
 (define-key *root-map* (kbd "c") "exec alacritty")
 (define-key *root-map* (kbd "C-c") "exec alacritty")
-(define-key *root-map* (kbd "b") "exec vivaldi")
+(define-key *root-map* (kbd "b") "exec firefox")
 
 (define-key *top-map* (kbd "s-n") "pull-hidden-next")
 (define-key *top-map* (kbd "s-p") "pull-hidden-previous")
@@ -32,4 +32,4 @@
 (define-key *top-map* (kbd "s-;") "colon")
 (define-key *top-map* (kbd "s-g") "abort")
 (define-key *top-map* (kbd "s-k") "delete")
-(define-key *top-map* (kbd "s-b") "exec vivaldi")
+(define-key *top-map* (kbd "s-b") "exec firefox")
