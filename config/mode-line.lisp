@@ -14,7 +14,7 @@
         "magenta"
         "cyan"
         "white"
-        "#2740FF"))
+        "#0020FF"))
 (stumpwm:update-color-map (stumpwm:current-screen))
 
 (setf stumpwm:*mode-line-highlight-template* "^[^78~A^]")
