@@ -4,7 +4,7 @@
   font-size
   use-battery)
 
-(defvar *desktop* (make-env :font-size 9 :use-battery nil))
+(defvar *desktop* (make-env :font-size 15 :use-battery nil))
 (defvar *laptop* (make-env :font-size 12 :use-battery t))
 
 (defvar *current-env*
