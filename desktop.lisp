@@ -9,5 +9,5 @@
   (asdf:load-system :desktop-config))
 
 (defun launch ()
-  (micros:create-server :dont-close t :port 12345)
+  ;; (micros:create-server :dont-close t :port 12345)
   (stumpwm:stumpwm))

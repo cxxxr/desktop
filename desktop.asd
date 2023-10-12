@@ -2,7 +2,8 @@
   :depends-on ("stumpwm"
                "battery-portable"
                "ttf-fonts"
-               "micros")
+               ;; "micros"
+               )
   :serial t
   :components ((:file "desktop")))
 
