@@ -1,0 +1,20 @@
+("quicklisp" .
+ (:class qlot/source/dist:source-dist
+  :initargs (:distribution "https://beta.quicklisp.org/dist/quicklisp.txt" :%version :latest)
+  :version "2023-06-18"))
+("micros" .
+ (:class qlot/source/git:source-git
+  :initargs (:remote-url "https://github.com/lem-project/micros.git")
+  :version "git-ed264a27262baeed493cdde338873bf4afc3721c"))
+("clx-truetype" .
+ (:class qlot/source/git:source-git
+  :initargs (:remote-url "https://github.com/l04m33/clx-truetype.git")
+  :version "git-c6e10a918d46632324d5863a8ed067a83fc26de8"))
+("stumpwm" .
+ (:class qlot/source/git:source-git
+  :initargs (:remote-url "https://github.com/stumpwm/stumpwm")
+  :version "git-2d14cb2e03b9ebdd940706bbd32d42764110bdf7"))
+("stumpwm-contrib" .
+ (:class qlot/source/git:source-git
+  :initargs (:remote-url "https://github.com/stumpwm/stumpwm-contrib")
+  :version "git-36f43af312a22ca5d93ff3030089354c0c5b573c"))

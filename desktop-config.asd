@@ -1,5 +1,6 @@
 (defsystem "desktop-config"
-  :depends-on ("desktop")
+  :depends-on ("desktop"
+               "micros")
   :serial t
   :pathname "config"
   :components ((:file "env")

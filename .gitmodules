@@ -1,9 +1,0 @@
-[submodule "submodules/clx-truetype"]
-	path = submodules/clx-truetype
-	url = https://github.com/l04m33/clx-truetype.git
-[submodule "submodules/stumpwm"]
-	path = submodules/stumpwm
-	url = https://github.com/stumpwm/stumpwm
-[submodule "submodules/stumpwm-contrib"]
-	path = submodules/stumpwm-contrib
-	url = https://github.com/stumpwm/stumpwm-contrib
