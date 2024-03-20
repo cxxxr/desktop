@@ -1,6 +1,6 @@
 (in-package :stumpwm-user)
 
-(set-prefix-key (kbd "C-q"))
+(set-prefix-key (kbd "C-3"))
 
 (define-key *root-map* (kbd "c") "exec alacritty")
 (define-key *root-map* (kbd "C-c") "exec alacritty")

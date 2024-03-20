@@ -1,7 +1,7 @@
 all: stumpwm
 
 stumpwm:
-	qlot exec ros -e '(asdf:make :desktop/executable)'
+	sbcl --eval '(ql:quickload :desktop/executable)' --eval '(asdf:make :desktop/executable)'
 
 install: stumpwm
 	cp stumpwm /usr/local/bin
